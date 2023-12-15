@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Hacked";
+    src: url("asstets/Hacked-KerX.ttf");
+}
+@font-face {
+    font-family: "ChineseRocks";
+    src: url("asstets/ChineseRocks.ttf");
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+header h2{
+    font-family: "Hacked";
+    font-size: 2em;
+    margin: .25em;
+    color: white;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header div p{
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    letter-spacing: .05em;
+    color: white;
+}
+
+header div p:first-child{
+    margin-right: 80px;
+    color: blueviolet;
+}
+
+
+
+
+.section1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("asstets/WD2_Large.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+
+h1{
+    margin: 0;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    font-size: 6em;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-family: "ChineseRocks";
+}
+
+
+
+
+.section2{
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+}
