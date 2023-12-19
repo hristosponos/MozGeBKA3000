@@ -85,21 +85,18 @@ h1 span{
 
 .section2{
     clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
-    width: 100vw;
-    height: 100vh;
     background-image: url("asstets/sec2-bg.png");
     background-size: cover;
-    transform: translateY(-100px);
+    background-repeat: no-repeat;
+    transform: translateY(-9%);
 }
 
+
 .sec2-title {
-    width: fit-content;
-    position: relative; 
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
+    padding-top: 9%;
+    width: 100vw;
     text-align: center;
+    padding-bottom: 5%;
 }
 
 .sec2-title p{
@@ -121,13 +118,10 @@ h1 span{
 }
 
 .sec2-characters{
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
     display: flex;
     justify-content: center;
     width: 100vw;
-    margin: auto;
+    padding-bottom: 5%;
 }
 
 .character > img{
@@ -141,6 +135,7 @@ h1 span{
     max-width: 10cm;
     max-height: 17.5cm;
     transition: 1s;
+    transform: scale(100%);
 }
 
 .character div{
@@ -223,4 +218,36 @@ h1 span{
 .char1:hover{
     transform: scale(105%);
     cursor: pointer;
+}
+
+.char-description{
+    position: relative;
+    bottom: 0;
+}
+
+.char-description{
+    width: 100%;
+    display: flex;
+}
+
+.char-description h2{
+    color:cornflowerblue;
+    border-bottom: solid 1px;
+    width: 50vw;
+    text-align: end;
+    margin: auto;
+    font-family: "ChineseRocks";
+    font-size: 2.5em;
+}
+
+.char-description span{
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.char-description p{
+    color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50vw;
+    padding-left: 10px;
 }
